@@ -1,0 +1,73 @@
+{
+  "info": {
+    "_postman_id": "01a0c047-2db5-4dab-8a6c-324c75bd94c2",
+    "name": "Spring-AI",
+    "schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json",
+    "_exporter_id": "16075219"
+  },
+  "item": [
+    {
+      "name": "Get Response- Gemini",
+      "request": {
+        "method": "GET",
+        "header": [],
+        "url": {
+          "raw": "localhost:8080/api/chat/gemini/hello",
+          "host": [
+            "localhost"
+          ],
+          "port": "8080",
+          "path": [
+            "api",
+            "chat",
+            "gemini",
+            "hello"
+          ]
+        }
+      },
+      "response": []
+    },
+    {
+      "name": "Get Response- Open AI",
+      "request": {
+        "method": "GET",
+        "header": [],
+        "url": {
+          "raw": "localhost:8080/api/chat/openai/hello",
+          "host": [
+            "localhost"
+          ],
+          "port": "8080",
+          "path": [
+            "api",
+            "chat",
+            "openai",
+            "hello"
+          ]
+        }
+      },
+      "response": []
+    },
+    {
+      "name": "Get Response- Ollama",
+      "request": {
+        "method": "GET",
+        "header": [],
+        "url": {
+          "raw": "localhost:8080/api/chat/ollama/hello",
+          "host": [
+            "localhost"
+          ],
+          "port": "8080",
+          "path": [
+            "api",
+            "chat",
+            "ollama",
+            "hello"
+          ]
+        }
+      },
+      "response": []
+    }
+  ]
+}

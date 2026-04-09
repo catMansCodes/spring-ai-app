@@ -1,4 +1,4 @@
-# 🚀 Spring AI Multi-Provider Chat (POC)
+# 🚀 Spring AI Multi-Provider Chat & Image Generation (POC)
 
 ## 📌 Overview
 
@@ -147,6 +147,8 @@ spring.ollama.model=mistral
 # OpenAI
 spring.ai.openai.api-key=${OPENAI_API_KEY}
 spring.ai.openai.chat.options.model=gpt-4.1-mini
+
+# add more configurations for the Image, TTS, STT, etc., based on requirements
 
 # Gemini
 spring.ai.google.genai.api-key=${GOOGLE_GEMINI_API_KEY}
